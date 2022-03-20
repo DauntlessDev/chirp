@@ -1,17 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import FooterContainer from '../components/Footer/FooterContainer'
 
 type Props = {}
 
-type State = {}
-
-class Home extends Component<Props, State> {
-  state = {}
-
-  render() {
-    return (
-      <div>Home</div>
-    )
-  }
+export default function Home({}: Props) {
+  return (
+    <>
+      <FooterContainer/>
+    </>
+  )
 }
-
-export default Home
