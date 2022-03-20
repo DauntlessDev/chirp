@@ -16,7 +16,7 @@ export default function FooterContainer() {
       <Footer.Text>Brand Resources </Footer.Text>
       <Footer.Text>Advertising</Footer.Text>
       <Footer.Text>Marketing</Footer.Text>
-      <Footer.Text>Twotter For Business</Footer.Text>
+      <Footer.Text>Chirp for Business</Footer.Text>
       <Footer.Text>Developers</Footer.Text>
       <Footer.Text>Directory</Footer.Text>
       <Footer.Text>Settings</Footer.Text>
