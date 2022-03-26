@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
     width: 100% ;
     height: 700px;
@@ -8,7 +7,6 @@ export const Container = styled.div`
     background-color: #23232e ;
     
 `;
-
 
 export const InnerContainer = styled.div`
     width: 70%;
