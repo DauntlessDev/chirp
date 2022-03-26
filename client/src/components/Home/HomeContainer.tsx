@@ -1,9 +1,6 @@
-import React from 'react'
 import * as Home from './homeStyles'
 
-type Props = {}
-
-function HomeContainer({ }: Props) {
+function HomeContainer() {
   return (
     <Home.Container>
       <Home.LeftContainer>

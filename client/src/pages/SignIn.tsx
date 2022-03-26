@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SignInContainer from '../components/SignIn/SignIn'
 
 type Props = {}
 
@@ -9,7 +10,9 @@ class SignIn extends Component<Props, State> {
 
   render() {
     return (
-      <div>SignIn</div>
+      <>
+        <SignInContainer/>
+      </>
     )
   }
 }

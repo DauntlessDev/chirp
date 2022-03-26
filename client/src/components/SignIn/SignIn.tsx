@@ -1,17 +1,19 @@
-import React, { Component } from 'react'
+import * as SignIn from './signInStyles'
 
-type Props = {}
-
-type State = {}
-
-class SignIn extends Component<Props, State> {
-  state = {}
-
-  render() {
-    return (
-      <div>SignIn</div>
-    )
-  }
+export default function SignInContainer() {
+  return (
+    <>
+      <SignIn.Container>
+        <SignIn.InnerContainer>
+          <SignIn.ElementsContainer>
+            <SignIn.HeaderText>Sign in to Chirp</SignIn.HeaderText>
+            <SignIn.InputField type="text" id="username" name="username" placeholder="Username" />
+            <SignIn.InputField type="text" id="password" name="password" placeholder="Password" />
+            <SignIn.Button>Login</SignIn.Button>
+            <SignIn.SmallText>Don't have an account? <SignIn.SmallColoredText>Create One</SignIn.SmallColoredText></SignIn.SmallText>
+          </SignIn.ElementsContainer>
+        </SignIn.InnerContainer>
+      </SignIn.Container>
+    </>
+  )
 }
-
-export default SignIn
