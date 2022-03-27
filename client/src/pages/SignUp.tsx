@@ -1,17 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
+import SignUpContainer from '../components/Auth/SignUpContainer'
 
-type Props = {}
-
-type State = {}
-
-class SignUp extends Component<Props, State> {
-  state = {}
-
-  render() {
-    return (
-      <div>SignUp</div>
-    )
-  }
+export default function SignUp() {
+  return (
+    <>
+      <SignUpContainer/>
+    </>
+  )
 }
-
-export default SignUp

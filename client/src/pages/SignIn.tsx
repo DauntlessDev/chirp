@@ -1,20 +1,9 @@
-import React, { Component } from 'react'
-import SignInContainer from '../components/SignIn/SignIn'
+import SignInContainer from '../components/Auth/SignInContainer'
 
-type Props = {}
-
-type State = {}
-
-class SignIn extends Component<Props, State> {
-  state = {}
-
-  render() {
-    return (
-      <>
-        <SignInContainer/>
-      </>
-    )
-  }
+export default function SignIn() {
+  return (
+    <>
+      <SignInContainer/>
+    </>
+  )
 }
-
-export default SignIn
