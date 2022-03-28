@@ -92,6 +92,7 @@ export const SignUpButton = styled.button`
     width: 100%;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 `;
 
 
@@ -102,6 +103,7 @@ export const SignInButton = styled.p`
     padding: 6px;
     width: 100%;
     display: inline ;
+    cursor: pointer;
 `;
 
 export const Break = styled.div`

@@ -49,6 +49,7 @@ export const Button = styled.button`
     margin: 0 auto;
     color: white;
     font-size: 12px ;
+    cursor: pointer;
 
 `;
 
@@ -59,8 +60,9 @@ export const SmallText = styled.p`
     text-align: center;
 `;
 
-export const SmallColoredText =styled.p`
+export const SmallColoredText = styled.p`
     color: #cc7584;
     display: inline ;
+    cursor: pointer;
 
 `
