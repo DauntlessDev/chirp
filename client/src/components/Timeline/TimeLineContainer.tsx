@@ -1,7 +1,10 @@
-import React from 'react'
+import * as Timeline from './timelineStyles'
+
 
 export default function TimeLineContainer() {
   return (
-    <div>TimeLineContainer</div>
+    <Timeline.Container>
+      yes
+    </Timeline.Container>
   )
 }

@@ -1,14 +1,16 @@
-import React from 'react'
 import FooterContainer from '../components/Footer/FooterContainer'
 import HomeContainer from '../components/Home/HomeContainer'
-
-type Props = {}
-
-export default function Home({ }: Props) {
+import MainContainer from '../components/Main/MainContainer';
+export default function Home() {
+  const loggedIn = true;
   return (
-    <>
-      <HomeContainer />
-      <FooterContainer />
-    </>
+    loggedIn ?
+      <>
+        <MainContainer />
+      </> :
+      <>
+        <HomeContainer />
+        <FooterContainer />
+      </>
   )
 }

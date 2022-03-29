@@ -1,7 +1,9 @@
-import React from 'react'
+import * as Sidebar from './sidebarStyles'
 
 export default function SidebarContainer() {
   return (
-    <div>SidebarContainer</div>
+    <Sidebar.Container>
+
+    </Sidebar.Container>
   )
 }
